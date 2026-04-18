@@ -1,3 +1,15 @@
+Actividad 3. Comparar la longitud de una palabra con la cantidad de casillas disponibles
+
+Descripción de la actividad
+El programa debe pedir una palabra y la cantidad de casillas disponibles en un recorrido.
+Esta cantidad de casillas debe ingresarla el usuario.
+El objetivo de esta actividad es que el programa determine si la palabra cabe exactamente
+en ese recorrido.
+En esta actividad no se calcula el recorrido porque ese problema ya fue resuelto en una
+actividad anterior. Aquí solo se analiza si la longitud de la palabra coincide con el número de
+casillas disponibles.
+Esta actividad permite practicar estructuras iterativas para contar las letras de una palabra.
+
 Qué debe hacer el programa
 
 1. Leer las cuatro coordenadas.
