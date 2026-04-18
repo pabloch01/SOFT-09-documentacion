@@ -7,7 +7,6 @@ ColumnaFinal= int(input("Ingrese el valor de la columna final: "))
 recorrido = 0
 
 if FilaInicial == FilaFinal and ColumnaInicial != ColumnaFinal:
-    msj1 = "El desplazamiento es horizontal"
 
     if ColumnaInicial != ColumnaFinal and ColumnaInicial <= ColumnaFinal:
 
@@ -20,9 +19,10 @@ if FilaInicial == FilaFinal and ColumnaInicial != ColumnaFinal:
         while ColumnaInicial >= ColumnaFinal:
             ColumnaInicial-=1
             recorrido+=1
+
+    print(f"El desplazamiento es horizontal\nEl desplazamiento fue de {recorrido} casillas")
                     
 elif ColumnaInicial == ColumnaFinal and FilaInicial != FilaFinal:
-    msj1 = "El desplazamiento es vertical"
 
     if FilaInicial != FilaFinal and FilaInicial <= FilaFinal:        
 
@@ -35,11 +35,11 @@ elif ColumnaInicial == ColumnaFinal and FilaInicial != FilaFinal:
         while FilaInicial >= FilaFinal:
             FilaInicial-=1
             recorrido+=1
+    
+    print(f"El desplazamiento es vertical\nEl desplazamiento fue de {recorrido} casillas")
                                     
 elif FilaInicial == FilaFinal and ColumnaInicial == ColumnaFinal:
-    msj1 = "El usuario no seleccionó ninguna celda"
+    print(f"El usuario no seleccionó ninguna celda\nEl desplazamiento fue de {recorrido} casillas")
 
 else:
-    msj1 = "El recorrido realizado no es válido para este avance"
-
-print(f"{msj1}\nEl desplazamiento fue de {recorrido} casillas")
+    print("El recorrido realizado no es válido para este avance")
