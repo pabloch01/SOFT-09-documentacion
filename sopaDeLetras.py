@@ -1,4 +1,4 @@
-#Actividad 1 
+#Mostrar el recorrido completo entre dos puntos
 print("Ejercicio 1")
 filaInicial= int(input("\nIngrese el valor de la fila inicial: "))
 columnaInicial= int(input("Ingrese el valor de la columna inicial: "))
@@ -34,7 +34,7 @@ else:
     print("El recorrido realizado no es válido para este avance")
 
 
-#Actividad 2
+#Contar cuántas casillas tiene el recorrido
 print("\nEjercicio 2")
 FilaInicial= int(input("\nIngrese el valor de la fila inicial: "))
 ColumnaInicial= int(input("Ingrese el valor de la columna inicial: "))
@@ -81,7 +81,7 @@ else:
     print("El recorrido realizado no es válido para este avance")
 
 
-#Actividad 3
+#Comparar la longitud de una palabra con la cantidad de casillas disponibles
 print("\nEjercicio 3")
 palabra = input("\nDigite la palabra: ")
 casillas = int(input("ingrese la cantidad de casillas: "))
@@ -104,7 +104,7 @@ elif contador > casillas:
 else:
     print("Resultado: Sobran casillas para la palabra.")
 
-#Actividad 4
+#Verificar si una palabra pertenece al conjunto de palabras del juego
 print("\nEjercicio 4")
 palabra1= "PYTHON"
 palabra2= "CICLO"
